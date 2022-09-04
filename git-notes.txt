@@ -1,0 +1,15 @@
+git init ---> to make any folder to git folder
+git status ---> To know the status of files
+git add <File Name> --> To add the modified files into " staging area"
+git commit -m "Message" --> to commit
+
+git always commit the changes in staging area , So better commit each changes separately .
+
+To restore the files from staging area:
+git restore --staged <file name> or git rm --cached <file name>
+
+ To check the history of commit log:
+ git log 
+
+ If we did any mistake in current commit or need to go back any specific commit.
+ git checkout <commit ID> (It will change in working directory)
