@@ -1,0 +1,4 @@
+git init ---> to make any folder to git folder
+git status ---> To know the status of files
+git add <File Name> --> To add the modified files into " staging area"
+git commit -m "Message" --> to commit 
